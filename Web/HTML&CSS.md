@@ -34,100 +34,121 @@
 
 - 가급적 같은줄에 작성하지 말고 함수 정의 바로 아래에 ''' ''' 사용하여 간결하게 작성
 
-
-
 ## 2. HTML
 
 ##### 1) HTML 기본 구조
 
-- 정수 자료형(int)
+- Hyper Text Markup Language(팀 버너스리)
 
-- 진수 표현
-  
-  - 2진수(binary) : 0b
-  
-  - 8진수(Octal) : 0o
-  
-  - 16진수(hexadecimal) : 0x
-    
-    ```python
-    print(0b10) # 2
-    print(0o30) # 24
-    print(0x10) # 16
-    ```
+- HTML만 사용하면 구조만 잡는것 -> 이것을 보기 좋게 정렬하는게 CSS -> Java Script를 쓰면 행동까지 생김(애니메이션?)
 
-- 실수 자료형(float)
-  
-  - 부동소수점 문제 : 컴퓨터는 2진수, 사람은 10진수를 사용하기 때문에 소수표현이 완전히 동일하지 않고 근사값을 사용하게 됨.
-    
-    ```python
-    print(3.2 - 3.1) # 0.10000000000000009
-    ```
-  
-  - 해결방법
-    
-    ```python
-    import math
-    print(math.isclose(a, b)) # True
-    ```
+- Hyper Text : 링크로 넘어가는 텍스트
+
+- Markup Language : 태그 등을 활용하여 보기 좋게 정렬하는 것
+
+- 파이썬은 4 space indent, html은 2 space!
+
+- html문서 = head(문서 메타데이터 요소) + body(문서 본문 요소)로 구성.
+
+- head 예시 : <title>, <meta>, <link>, <script>, <style> - CSS
+
+- html 요소 : 시작태그 + 요소 + 종료태그(없는경우도 있음) -> 요소의 중첩을 통해 문서를 구조화
+
+- 속성 : 태그를 구체화해주는 것, 속성명 + 속성값으로 구성, html에서는 = 앞뒤로 공백 x
+
+- 주석 : ctrl + / 로 사용
+
+- 시멘틱 태그 : 태그가 고유한 이름과 의미를 가지는 것(의미론적 마크업 - 검색엔진 최적화)
+
+- 렌더링 : 웹사이트 코드를 웹사이트로 만드는 과정 - DOM(document object model) 트리를 이용하여 렌더링
 
 ##### 2) HTML 문서 구조화
 
-- Escape sequence : backslash 뒤에 특정 문자가 와서 특수한 기능을 하는 문자 조합
-  
-  - \r : 캐리지 리턴
-  
-  - \0 : Null
-  
-  - \\\ : \
-  
-  - \' : '
-  
-  - \" : "
+- 인라인 / 블록 요소
 
-- String Interpolation(문자열을 변수를 활용하여 만드는 법)
+- 인라인:
   
-  - f-strings
+  - <a></a> : href 속성을 활용하여 하이퍼링크 생성
+  
+  - <strong></strong> : 굵은 글씨
+  
+  - <i></i> : 글씨 기울임
+  
+  - <br : 줄바꿈(괄호닫으면 줄바껴서 안닫음)
+  
+  - <아이mg> : 이미지
+  
+  - <span></span> : 의미 없는 인라인 컨테이너
 
-##### 
+- 블록:
+  
+  - <p></p> : 하나의 문단
+  
+  - <hr> : 문단 레벨 요소에서 주제의 분리, 수평선으로 표현
+  
+  - <ol></ol> : 순서가 있는 리스트(ordered list), 숫자로 구분
+  
+  - <ul></ul> : 순서가 없는 리스트, 그냥 점으로 구분
+  
+  - <pre> </=>:  HTML에 작성한 내용을 그대로 표현
+  
+  - <blockquote></=> : 텍스트가 긴 인용문, 들여쓰기를 한 것으로 표현됨
+  
+  - <div></=> : 의미없는 블록 컨테이너
 
-## 3. CSS
+- form
+  
+  - <form>은 정보를 서버에 제출하기 위해 사용하는 태그(ex.로그인)
+  
+  - 기본속성 : action(데이터를 보낼 곳)
+  
+  - input : form 내에서 어떤 형식으로 input을 받을건지 설정
+  
+  - input label
+    
+    ```html
+    <label for="agreement">개인정보 수집에 동의합니다.</label>
+    <input type="checkbox" name="agreement" id="agreement">
+    ```
+  
+  - input 유형 - 일반 : text, password, email, number, file
+  
+  - input 유형 - 항목 중 선택 : checkbox(다중선택), radio(단일선택)
+
+## 3. CSS(Cascading Style Sheets)
 
 ##### 1) CSS Selectors
 
-- mutable : 변경 가능한(<-> immutable)
+- 선택자 유형 : 기본선택자, 결합자, 의사 클래스/요소
+  
+  - 전체선택자 : *
+  
+  - 요소선택자 : 태그를 부르는 것
+  
+  - 클래스선택자 : 마침표(.) 문자로 시작. 해당 클래스가 적용된 항목을 선택
+  
+  - ID선택자 : #으로 시작, 해당 아이디가 적용된 항목을 선택. 일반적으로 하나의 문서에 한 번만 사용.
 
-- 
+- Lorem + tab : 랜덤한 문자열 자동 생성
+
+- CSS 적용 우선순위 : 범위가 좁을수록 강하다(important >> 인라인 > id > class, 속성 > 요소 > *)
+  
+  - 만약 같은 범위라면 적는 순서에서 아래에 있는 것이 더 쎔
+
+- CSS 상속 : 부모요소를 자식요소에게 상속
+  
+  - 상속 되는 것 : Text 관련 요소
+  
+  - 안되는 것 : Layout 관련 요소
 
 ##### 2) CSS 단위
 
 ##### 3) Selectors 심화
 
-- 생성시 주의사항 : 단일 항목의 경우 값 뒤에 ,를 붙여야 함. 복수 항목의 경우에도 권장.
-  
-  ```python
-  a = (1,)
-  print(a) # (1,)
-  b = (1,2,3,)
-  print(type(b) # <class 'tuple'>
-  ```
+- ##### 4) Box model
 
-##### 4) Box model
-
-- 사용 예시
-  
-  ```python
-  print(list(range(1,5,2)))  # [1, 3]
-  print(list(range(6,1,-1))) # [6,5,4,3,2]
-  print(list(range(6,1,1)))  # []
-  ```
+- 
 
 ##### 5) Display
 
-- 사용예시
-  
-  ```python
-  '12345'[::-1] # '54321'
-  ```
-
-##### 6) Position
+- ##### 6) Position
