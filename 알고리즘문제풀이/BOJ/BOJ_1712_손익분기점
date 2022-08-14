@@ -1,0 +1,6 @@
+A, B, C = map(int, input().split())
+# 손익 분기점 : C * x > A + B*x ==> (C-B)*x - A > 0
+if B >= C:
+    print(-1)
+else:
+    print(A // (C-B) + 1)

@@ -1,0 +1,19 @@
+def find_k(m):
+    if m >= 500000000:
+        k = 10000
+        while True:
+            if 3 * k * (k-1) < m <= 3 * k * (k+1):
+                return k
+            else:
+                k += 1
+
+    else:    
+        k = 0
+        while True:
+            if 3 * k * (k-1) < m <= 3 * k * (k+1):
+                return k
+            else:
+                k += 1
+
+N = int(input())
+print(find_k(N-1) + 1)
