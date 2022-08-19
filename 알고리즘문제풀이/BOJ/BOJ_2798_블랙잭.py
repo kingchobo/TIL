@@ -1,10 +1,11 @@
 N, M = map(int, input().split())
-arr = [map(int, input().split())]
+arr = list(map(int, input().split()))
 sum = 0
-L = len(arr)
-for i in range(L-2):
-    for j in range(1,L-1):
-        for k in range(2,L):
-            if (arr[i]+arr[j]+arr[k]) < M and (arr[i]+arr[j]+arr[k]) > sum:
-                sum = arr[i]+arr[j]+arr[k]
+
+for i in range(N-2):
+    for j in range(i+1, N-1):
+        for k in range(j+1, N):
+            if sum < arr[i] + arr[j] + arr[k] and M >= arr[i] + arr[j] + arr[k]:
+                sum = arr[i] + arr[j] + arr[k]
+
 print(sum)
