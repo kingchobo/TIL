@@ -1,33 +1,20 @@
 K, N = map(int, input().split())
-l = []
-for i in range(K):
-    l.append(int(input()))
-# print(l)
-best = sum(l) // N
-# print(best)
-new_l = []
-for i in l:
-    new_l.append(i//best)
-# print(new_l)
-n = sum(new_l)
-# print(n)
-while n <= N:
-    if n == N:
-        print(best)
-        break
+
+# 보유중인 K개의 랜선의 길이 리스트
+arr_k = [int(input()) for _ in range(K)]
+
+# 이분탐색의 시작과 끝 위치
+start, end = 1, max(arr_k)
+
+while start <= end:
+    mid = (start + end) // 2
+    lines = 0
+    for i in arr_k:
+        lines += i // mid
+
+    if lines >= N:
+        start = mid + 1
     else:
-        m = 0
-        c = 0
-        for i in range(K):    # 남은 길이가 가장 긴 랜선의 인덱스 찾기
-            if m < l[i] % best and l[i] >= best:
-                m = l[i] % best
-                c = i
-        # 그 랜선의 개수(new_l[c])가 +1 이 되도록 best를 줄임
-        best = l[c] // (new_l[c] + 1)
-        new_l.clear()
-        for i in l:
-            new_l.append(i//best)
-        n = sum(new_l)
-        if n >= N:
-            print(best)
-            break
+        end = mid - 1
+
+print(end)
