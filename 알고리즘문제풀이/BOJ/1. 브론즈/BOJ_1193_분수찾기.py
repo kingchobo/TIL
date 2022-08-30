@@ -7,11 +7,12 @@ while n > end:
     end += line
 
 diff = end - n
-if line%2 == 0: #짝수 라인 일때
+
+if line % 2 == 0:   # 짝수 라인 일때
     top = line - diff
     bottom = diff + 1
 else:
     top = diff + 1
     bottom = line - diff
 
-print("%d/%d"%(top,bottom))
+print(f'{top}/{bottom}')
