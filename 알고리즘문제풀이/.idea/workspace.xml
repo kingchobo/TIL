@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc6069aa-60a4-48a8-9a77-766ac77f0eb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BOJ/1. 브론즈/BOJ_24416_피보나치수1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ/2. 실버/BOJ_24417_피보나치수2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ/2. 실버/BOJ_3048_개미.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../공부/Web/HTML&amp;CSS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../공부/Web/부트스트랩.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../공부/django/django.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/1. 브론즈/BOJ_1193_분수찾기.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/1. 브론즈/BOJ_1193_분수찾기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOJ/2. 실버/BOJ_24417_피보나치수2.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/2. 실버/BOJ_24417_피보나치수2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Python.BOJ_24417_피보나치수2">
+  <component name="RunManager" selected="Python.BOJ_3048_개미">
     <configuration name="BOJ_1193_분수찾기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="알고리즘문제풀이" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,8 +102,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="BOJ_3048_개미" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="알고리즘문제풀이" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOJ/2. 실버" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ/2. 실버/BOJ_3048_개미.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BOJ_3048_개미" />
         <item itemvalue="Python.BOJ_24417_피보나치수2" />
         <item itemvalue="Python.BOJ_24416_피보나치수1" />
         <item itemvalue="Python.BOJ_1193_분수찾기" />

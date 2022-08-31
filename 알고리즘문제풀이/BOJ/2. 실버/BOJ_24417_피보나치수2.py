@@ -11,6 +11,8 @@ def fibo(n):
     for i in range(2, n+1):
         arr[i % 2] = arr[0] + arr[1]
         cnt += 1
+        if arr[i % 2] > 1000000007:
+            arr[i % 2] %= 1000000007
     return arr[n % 2]
 
 cnt = -1
