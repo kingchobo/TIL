@@ -280,13 +280,12 @@
        - 이러한 문자열은 앰퍼샌드(&)로 연결된 key=value 쌍으로 구성되며 기본 url과 물음표로 구분됨
 
 6- Retrieving the data(Server)
-   
-   - 데이터 가져오기(검색하기)
-   
-   - throw가 보낸 데이터를 catch에서 가져오기
-   
-   - 모든 요청 데이터는 view 함수의 첫 번째 인자 request에 들어있다.
 
+- 데이터 가져오기(검색하기)
+
+- throw가 보낸 데이터를 catch에서 가져오기
+
+- 모든 요청 데이터는 view 함수의 첫 번째 인자 request에 들어있다.
 7. Django URLs
    
    - Dispatcher(운행 관리원)로써의 URL 이해하기
