@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc6069aa-60a4-48a8-9a77-766ac77f0eb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BOJ/2. 실버/BOJ_1018_체스판다시칠하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ/2. 실버/BOJ_1920_수찾기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ/2. 실버/BOJ_2108_통계학.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ/3. 골드/BOJ_2565_전깃줄.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ/2. 실버/BOJ_13335_트럭.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ/2. 실버/BOJ_1991_트리순회.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Python.BOJ_2108_통계학">
+  <component name="RunManager" selected="Python.BOJ_13335_트럭">
     <configuration name="BOJ_1018_체스판다시칠하기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="알고리즘문제풀이" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,7 +74,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BOJ_15686_치킨배달" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="BOJ_13335_트럭" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="알고리즘문제풀이" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,11 +82,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOJ/3. 골드" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOJ/2. 실버" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ/3. 골드/BOJ_15686_치킨배달.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ/2. 실버/BOJ_13335_트럭.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BOJ_13335_트럭" />
         <item itemvalue="Python.BOJ_2108_통계학" />
         <item itemvalue="Python.BOJ_1920_수찾기" />
         <item itemvalue="Python.BOJ_1018_체스판다시칠하기" />
         <item itemvalue="Python.BOJ_2565_전깃줄" />
-        <item itemvalue="Python.BOJ_15686_치킨배달" />
       </list>
     </recent_temporary>
   </component>
