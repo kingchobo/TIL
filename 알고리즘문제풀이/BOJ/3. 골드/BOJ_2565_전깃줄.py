@@ -2,6 +2,7 @@ import sys
 
 n = int(sys.stdin.readline())
 pole = [[0, 0]] * n
+
 dp = [0] * n
 for i in range(n):
     a, b = map(int, sys.stdin.readline().split())

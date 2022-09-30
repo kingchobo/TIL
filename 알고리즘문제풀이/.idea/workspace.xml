@@ -5,9 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc6069aa-60a4-48a8-9a77-766ac77f0eb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BOJ/2. 실버/BOJ_13335_트럭.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ/2. 실버/BOJ_1991_트리순회.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ/2. 실버/BOJ_2164_카드2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ/3. 골드/BOJ_1715_카드정렬.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ/3. 골드/BOJ_1759_암호만들기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ/BOJ_1946_신입사원.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ/BOJ_2164_카드2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_0920_16진수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_0920_단순2진암호코드.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_0920_암호출력.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_0920_암호코드스캔.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_0920_암호코드스캔_교수님풀이.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_0920_이진수십진수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_0921_Baby_Gin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_0922_Baby_Gin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_0923_격자판.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_0923_디저트카페.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_0923_은행업무.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_0923_장훈이.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_5185_이진수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_5186_이진수2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_5188_최소합.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_5189_전자카트.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_5201_컨테이너운반.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/SWEA_5202_화물도크.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOJ/2. 실버/BOJ_2108_통계학.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/2. 실버/BOJ_2108_통계학.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOJ/3. 골드/BOJ_2565_전깃줄.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/3. 골드/BOJ_2565_전깃줄.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/연습장.py" beforeDir="false" afterPath="$PROJECT_DIR$/연습장.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +76,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Python.BOJ_13335_트럭">
-    <configuration name="BOJ_1018_체스판다시칠하기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.BOJ_2164_카드2">
+    <configuration name="BOJ_2164_카드2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="알고리즘문제풀이" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,11 +85,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOJ/2. 실버" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOJ" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ/2. 실버/BOJ_1018_체스판다시칠하기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ/BOJ_2164_카드2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BOJ_13335_트럭" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SWEA_0923_은행업무" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="알고리즘문제풀이" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,11 +106,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOJ/2. 실버" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ/2. 실버/BOJ_13335_트럭.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/SWEA_0923_은행업무.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BOJ_1920_수찾기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SWEA_0923_격자판" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="알고리즘문제풀이" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,11 +127,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOJ/2. 실버" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ/2. 실버/BOJ_1920_수찾기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/SWEA_0923_격자판.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +140,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BOJ_2108_통계학" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SWEA_0923_장훈이" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="알고리즘문제풀이" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,11 +148,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOJ/2. 실버" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ/2. 실버/BOJ_2108_통계학.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/SWEA_0923_장훈이.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +161,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BOJ_2565_전깃줄" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SWEA_0923_디저트카페" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="알고리즘문제풀이" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,11 +169,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOJ/3. 골드" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ/3. 골드/BOJ_2565_전깃줄.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/SWEA_0923_디저트카페.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +184,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.BOJ_13335_트럭" />
-        <item itemvalue="Python.BOJ_2108_통계학" />
-        <item itemvalue="Python.BOJ_1920_수찾기" />
-        <item itemvalue="Python.BOJ_1018_체스판다시칠하기" />
-        <item itemvalue="Python.BOJ_2565_전깃줄" />
+        <item itemvalue="Python.BOJ_2164_카드2" />
+        <item itemvalue="Python.SWEA_0923_은행업무" />
       </list>
     </recent_temporary>
   </component>

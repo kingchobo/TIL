@@ -19,10 +19,21 @@ else:
 print(mid)
 
 # 최빈값
-count_num = {}
-for i in num_list:
-    if i not in count_num:
-        count_num[i] = 1
+counts = dict()
+for i in range(1, n+1):
+    counts[i] = []
+maxCount = 1
+count = 1
+for i in range(1, n):
+    if num_list[i] == num_list[i-1]:
+        count += 1
     else:
-        count_num[i] += 1
+        counts[count].append(num_list[i-1])
+        if maxCount < count: maxCount = count
+        count = 1
+    if i == n-1:
+        counts[count].append(num_list[i])
+        if maxCount < count: maxCount = count
 
+# 범위
+print(abs(num_list[-1] - num_list[0]))
